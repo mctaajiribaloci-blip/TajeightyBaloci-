@@ -1,0 +1,56 @@
+# OS metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.log
+
+# Test screenshots / Playwright / browser automation artifacts
+test-results/
+playwright-report/
+playwright/.cache/
+screenshots/
+*-screenshot*.png
+*-full.png
+*-frac-*.png
+contact-sheet*.png
+contact_sheet*.png
+*_chunk_*.png
+piece-detail-*.png
+collection-full-*.png
+
+# Local environment / credentials / secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+*.secret
+
+# Generated debugging scripts/output (ad hoc audit/verification tooling, not production assets)
+debug_*.js
+debug_*.png
+verify_*.js
+get_sections.js
+fullpage.js
+spatial_frames.js
